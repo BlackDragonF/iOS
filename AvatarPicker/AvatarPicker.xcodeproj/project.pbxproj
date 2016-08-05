@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AB15521D54E25F00F241B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15511D54E25F00F241B4 /* main.m */; };
+		10AB15551D54E25F00F241B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15541D54E25F00F241B4 /* AppDelegate.m */; };
+		10AB15581D54E25F00F241B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15571D54E25F00F241B4 /* ViewController.m */; };
+		10AB155B1D54E26000F241B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB15591D54E26000F241B4 /* Main.storyboard */; };
+		10AB155D1D54E26000F241B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB155C1D54E26000F241B4 /* Assets.xcassets */; };
+		10AB15601D54E26000F241B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB155E1D54E26000F241B4 /* LaunchScreen.storyboard */; };
+		10AB156B1D54E26000F241B4 /* AvatarPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB156A1D54E26000F241B4 /* AvatarPickerTests.m */; };
+		10AB15761D54E26000F241B4 /* AvatarPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15751D54E26000F241B4 /* AvatarPickerUITests.m */; };
+		10AB158A1D54E2C000F241B4 /* GRAAvatarEditerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15851D54E2C000F241B4 /* GRAAvatarEditerController.m */; };
+		10AB158B1D54E2C000F241B4 /* GRAAvatarPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15871D54E2C000F241B4 /* GRAAvatarPickerController.m */; };
+		10AB158C1D54E2C000F241B4 /* GRAPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB15891D54E2C000F241B4 /* GRAPhotoCell.m */; };
+		A0C9AEC9C746D39ACE6221B5 /* libPods-AvatarPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C04D5E27055F280F56846 /* libPods-AvatarPicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AB15671D54E26000F241B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB15451D54E25F00F241B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB154C1D54E25F00F241B4;
+			remoteInfo = AvatarPicker;
+		};
+		10AB15721D54E26000F241B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB15451D54E25F00F241B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB154C1D54E25F00F241B4;
+			remoteInfo = AvatarPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AB154D1D54E25F00F241B4 /* AvatarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB15511D54E25F00F241B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10AB15531D54E25F00F241B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10AB15541D54E25F00F241B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10AB15561D54E25F00F241B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10AB15571D54E25F00F241B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10AB155A1D54E26000F241B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10AB155C1D54E26000F241B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10AB155F1D54E26000F241B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10AB15611D54E26000F241B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB15661D54E26000F241B4 /* AvatarPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB156A1D54E26000F241B4 /* AvatarPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarPickerTests.m; sourceTree = "<group>"; };
+		10AB156C1D54E26000F241B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB15711D54E26000F241B4 /* AvatarPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB15751D54E26000F241B4 /* AvatarPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarPickerUITests.m; sourceTree = "<group>"; };
+		10AB15771D54E26000F241B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB15841D54E2C000F241B4 /* GRAAvatarEditerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAAvatarEditerController.h; sourceTree = "<group>"; };
+		10AB15851D54E2C000F241B4 /* GRAAvatarEditerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAAvatarEditerController.m; sourceTree = "<group>"; };
+		10AB15861D54E2C000F241B4 /* GRAAvatarPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAAvatarPickerController.h; sourceTree = "<group>"; };
+		10AB15871D54E2C000F241B4 /* GRAAvatarPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAAvatarPickerController.m; sourceTree = "<group>"; };
+		10AB15881D54E2C000F241B4 /* GRAPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAPhotoCell.h; sourceTree = "<group>"; };
+		10AB15891D54E2C000F241B4 /* GRAPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAPhotoCell.m; sourceTree = "<group>"; };
+		516C04D5E27055F280F56846 /* libPods-AvatarPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AvatarPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		812E7F9D7C7F7BA3432D4ED8 /* Pods-AvatarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvatarPicker/Pods-AvatarPicker.release.xcconfig"; sourceTree = "<group>"; };
+		E4E326E48CB594BFB7AD4C1A /* Pods-AvatarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvatarPicker/Pods-AvatarPicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AB154A1D54E25F00F241B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C9AEC9C746D39ACE6221B5 /* libPods-AvatarPicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB15631D54E26000F241B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB156E1D54E26000F241B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AB15441D54E25F00F241B4 = {
+			isa = PBXGroup;
+			children = (
+				10AB15831D54E29D00F241B4 /* AvatarEditerAndPicker */,
+				10AB154F1D54E25F00F241B4 /* Demo */,
+				10AB15691D54E26000F241B4 /* AvatarPickerTests */,
+				10AB15741D54E26000F241B4 /* AvatarPickerUITests */,
+				10AB154E1D54E25F00F241B4 /* Products */,
+				CCE87F22178E3645912695B7 /* Pods */,
+				2CB85C0AE0CCD799EC5C8311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10AB154E1D54E25F00F241B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AB154D1D54E25F00F241B4 /* AvatarPicker.app */,
+				10AB15661D54E26000F241B4 /* AvatarPickerTests.xctest */,
+				10AB15711D54E26000F241B4 /* AvatarPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AB154F1D54E25F00F241B4 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				10AB15531D54E25F00F241B4 /* AppDelegate.h */,
+				10AB15541D54E25F00F241B4 /* AppDelegate.m */,
+				10AB15561D54E25F00F241B4 /* ViewController.h */,
+				10AB15571D54E25F00F241B4 /* ViewController.m */,
+				10AB15591D54E26000F241B4 /* Main.storyboard */,
+				10AB155C1D54E26000F241B4 /* Assets.xcassets */,
+				10AB155E1D54E26000F241B4 /* LaunchScreen.storyboard */,
+				10AB15611D54E26000F241B4 /* Info.plist */,
+				10AB15501D54E25F00F241B4 /* Supporting Files */,
+			);
+			name = Demo;
+			path = AvatarPicker;
+			sourceTree = "<group>";
+		};
+		10AB15501D54E25F00F241B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AB15511D54E25F00F241B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10AB15691D54E26000F241B4 /* AvatarPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB156A1D54E26000F241B4 /* AvatarPickerTests.m */,
+				10AB156C1D54E26000F241B4 /* Info.plist */,
+			);
+			path = AvatarPickerTests;
+			sourceTree = "<group>";
+		};
+		10AB15741D54E26000F241B4 /* AvatarPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB15751D54E26000F241B4 /* AvatarPickerUITests.m */,
+				10AB15771D54E26000F241B4 /* Info.plist */,
+			);
+			path = AvatarPickerUITests;
+			sourceTree = "<group>";
+		};
+		10AB15831D54E29D00F241B4 /* AvatarEditerAndPicker */ = {
+			isa = PBXGroup;
+			children = (
+				10AB15841D54E2C000F241B4 /* GRAAvatarEditerController.h */,
+				10AB15851D54E2C000F241B4 /* GRAAvatarEditerController.m */,
+				10AB15861D54E2C000F241B4 /* GRAAvatarPickerController.h */,
+				10AB15871D54E2C000F241B4 /* GRAAvatarPickerController.m */,
+				10AB15881D54E2C000F241B4 /* GRAPhotoCell.h */,
+				10AB15891D54E2C000F241B4 /* GRAPhotoCell.m */,
+			);
+			name = AvatarEditerAndPicker;
+			sourceTree = "<group>";
+		};
+		2CB85C0AE0CCD799EC5C8311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516C04D5E27055F280F56846 /* libPods-AvatarPicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE87F22178E3645912695B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E326E48CB594BFB7AD4C1A /* Pods-AvatarPicker.debug.xcconfig */,
+				812E7F9D7C7F7BA3432D4ED8 /* Pods-AvatarPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AB154C1D54E25F00F241B4 /* AvatarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB157A1D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPicker" */;
+			buildPhases = (
+				7E52B51D15D535615B9092C3 /* [CP] Check Pods Manifest.lock */,
+				10AB15491D54E25F00F241B4 /* Sources */,
+				10AB154A1D54E25F00F241B4 /* Frameworks */,
+				10AB154B1D54E25F00F241B4 /* Resources */,
+				D6910F08442B6B2FD2F96375 /* [CP] Embed Pods Frameworks */,
+				12D0A2A157EC1CA5E7E388A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvatarPicker;
+			productName = AvatarPicker;
+			productReference = 10AB154D1D54E25F00F241B4 /* AvatarPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AB15651D54E26000F241B4 /* AvatarPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB157D1D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPickerTests" */;
+			buildPhases = (
+				10AB15621D54E26000F241B4 /* Sources */,
+				10AB15631D54E26000F241B4 /* Frameworks */,
+				10AB15641D54E26000F241B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB15681D54E26000F241B4 /* PBXTargetDependency */,
+			);
+			name = AvatarPickerTests;
+			productName = AvatarPickerTests;
+			productReference = 10AB15661D54E26000F241B4 /* AvatarPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10AB15701D54E26000F241B4 /* AvatarPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB15801D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPickerUITests" */;
+			buildPhases = (
+				10AB156D1D54E26000F241B4 /* Sources */,
+				10AB156E1D54E26000F241B4 /* Frameworks */,
+				10AB156F1D54E26000F241B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB15731D54E26000F241B4 /* PBXTargetDependency */,
+			);
+			name = AvatarPickerUITests;
+			productName = AvatarPickerUITests;
+			productReference = 10AB15711D54E26000F241B4 /* AvatarPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AB15451D54E25F00F241B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BlackDragon;
+				TargetAttributes = {
+					10AB154C1D54E25F00F241B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					10AB15651D54E26000F241B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10AB154C1D54E25F00F241B4;
+					};
+					10AB15701D54E26000F241B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10AB154C1D54E25F00F241B4;
+					};
+				};
+			};
+			buildConfigurationList = 10AB15481D54E25F00F241B4 /* Build configuration list for PBXProject "AvatarPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AB15441D54E25F00F241B4;
+			productRefGroup = 10AB154E1D54E25F00F241B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AB154C1D54E25F00F241B4 /* AvatarPicker */,
+				10AB15651D54E26000F241B4 /* AvatarPickerTests */,
+				10AB15701D54E26000F241B4 /* AvatarPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AB154B1D54E25F00F241B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB15601D54E26000F241B4 /* LaunchScreen.storyboard in Resources */,
+				10AB155D1D54E26000F241B4 /* Assets.xcassets in Resources */,
+				10AB155B1D54E26000F241B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB15641D54E26000F241B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB156F1D54E26000F241B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D0A2A157EC1CA5E7E388A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvatarPicker/Pods-AvatarPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E52B51D15D535615B9092C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6910F08442B6B2FD2F96375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvatarPicker/Pods-AvatarPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AB15491D54E25F00F241B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB158A1D54E2C000F241B4 /* GRAAvatarEditerController.m in Sources */,
+				10AB158B1D54E2C000F241B4 /* GRAAvatarPickerController.m in Sources */,
+				10AB15581D54E25F00F241B4 /* ViewController.m in Sources */,
+				10AB15551D54E25F00F241B4 /* AppDelegate.m in Sources */,
+				10AB15521D54E25F00F241B4 /* main.m in Sources */,
+				10AB158C1D54E2C000F241B4 /* GRAPhotoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB15621D54E26000F241B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB156B1D54E26000F241B4 /* AvatarPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB156D1D54E26000F241B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB15761D54E26000F241B4 /* AvatarPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AB15681D54E26000F241B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB154C1D54E25F00F241B4 /* AvatarPicker */;
+			targetProxy = 10AB15671D54E26000F241B4 /* PBXContainerItemProxy */;
+		};
+		10AB15731D54E26000F241B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB154C1D54E25F00F241B4 /* AvatarPicker */;
+			targetProxy = 10AB15721D54E26000F241B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10AB15591D54E26000F241B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB155A1D54E26000F241B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10AB155E1D54E26000F241B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB155F1D54E26000F241B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AB15781D54E26000F241B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10AB15791D54E26000F241B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AB157B1D54E26000F241B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E326E48CB594BFB7AD4C1A /* Pods-AvatarPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AvatarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		10AB157C1D54E26000F241B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812E7F9D7C7F7BA3432D4ED8 /* Pods-AvatarPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AvatarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		10AB157E1D54E26000F241B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AvatarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvatarPicker.app/AvatarPicker";
+			};
+			name = Debug;
+		};
+		10AB157F1D54E26000F241B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AvatarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvatarPicker.app/AvatarPicker";
+			};
+			name = Release;
+		};
+		10AB15811D54E26000F241B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AvatarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AvatarPicker;
+			};
+			name = Debug;
+		};
+		10AB15821D54E26000F241B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AvatarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackDragon.AvatarPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AvatarPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AB15481D54E25F00F241B4 /* Build configuration list for PBXProject "AvatarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB15781D54E26000F241B4 /* Debug */,
+				10AB15791D54E26000F241B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB157A1D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB157B1D54E26000F241B4 /* Debug */,
+				10AB157C1D54E26000F241B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB157D1D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB157E1D54E26000F241B4 /* Debug */,
+				10AB157F1D54E26000F241B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB15801D54E26000F241B4 /* Build configuration list for PBXNativeTarget "AvatarPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB15811D54E26000F241B4 /* Debug */,
+				10AB15821D54E26000F241B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AB15451D54E25F00F241B4 /* Project object */;
+}
